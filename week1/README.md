@@ -3,7 +3,7 @@
 
 ## Goals For This Week
 
-####Programming Language Selection
+#### Programming Language Selection
 
 By the end of this week we would like you to decide which programming language you will study in this course.  We strongly recommend that you stick with the language throughout the program, including for both coding exercises and the mock interviews. 
 
