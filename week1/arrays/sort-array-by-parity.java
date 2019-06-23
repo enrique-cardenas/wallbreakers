@@ -27,14 +27,3 @@ class Solution {
         return answer;
     }
 }
-
-
-class Main{
-    public static void main(String[] args){
-        Solution test = new Solution();
-        int[] A = {3,1,2,4};
-        int[] sortedArray = test.sortArrayByParity(A);
-        for(int num: sortedArray) System.out.print(num + " ");
-        System.out.println();
-    }
-}
