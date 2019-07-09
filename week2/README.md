@@ -31,7 +31,7 @@
 
 * https://leetcode.com/problems/find-all-anagrams-in-a-string/
 
-** Use a multiset for this one. You can also solve it without using one. How? Try to solve it both ways. How do the two solutions compare?
+  * Use a multiset for this one. You can also solve it without using one. How? Try to solve it both ways. How do the two solutions compare?
 
 * https://leetcode.com/problems/first-unique-character-in-a-string/
 
@@ -45,11 +45,11 @@
 
 * https://leetcode.com/problems/set-mismatch/
 
-** This one has a few “clever” solutions but feel free to use a simple multiset solution.
+  * This one has a few “clever” solutions but feel free to use a simple multiset solution.
 
 * https://leetcode.com/problems/number-of-atoms/
 
-** This one is more difficult than the average interview question but it is good exercise! You will need to build a simple parser in addition to using a multiset.
+  * This one is more difficult than the average interview question but it is good exercise! You will need to build a simple parser in addition to using a multiset.
 
 #### Tries
 
