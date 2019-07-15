@@ -20,24 +20,24 @@ class Solution {
         if(n < 0) return myPow(1/x, -n);
         
         // store solutions in array
-        double[] dp = new double[n + 1];
-        dp[0] = 1;
-        dp[1] = x;
+        double[] cache = new double[n + 1];
+        cache[0] = 1;
+        cache[1] = x;
         
-        return myPow(x, n, dp); 
+        return myPow(x, n, cache); 
     }
     
-    public double myPow(double x, int n, double[] dp) {
-        if(n == 0) return dp[0];
-        if(n == 1) return dp[1];
+    public double myPow(double x, int n, double[] cache) {
+        if(n == 0) return cache[0];
+        if(n == 1) return cache[1];
         
         if(n % 2 == 0){
-            dp[n] = myPow(x, n / 2, dp) * myPow(x, n / 2, dp);
+            cache[n] = myPow(x, n / 2, cache) * myPow(x, n / 2, cache);
         }
         else{
-            dp[n] = x * myPow(x, n / 2, dp) * myPow(x, n / 2, dp);
+            cache[n] = x * myPow(x, n / 2, cache) * myPow(x, n / 2, cache);
         }
         
-        return dp[n];
+        return cache[n];
     }
 }
